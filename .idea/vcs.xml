@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Facial-Landmark-Detection---Mediapipe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Full-Body-Estimation-using-Media-Pipe-Holistic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/handgesture" vcs="Git" />
+  </component>
+</project>
