@@ -5,3 +5,5 @@ def faktorial(n):
         return n * faktorial(n-1)
 
 print(faktorial(5))   # output: 120
+
+# Program Rekursif Faktorial Sederhana

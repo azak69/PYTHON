@@ -7,3 +7,5 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-1)
 
 print(fibonacci(3))
+
+# Program Rekursif Fibonacci Sederhana

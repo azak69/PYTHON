@@ -7,3 +7,4 @@ if hasil == "besar":
 else:
     print("angka 10 atau kurang")
 
+# Program Percabangan Sederhana

@@ -11,3 +11,5 @@ def cetak_dict(**isi):
 
 cetak_dict(nama="Saya", nama2="Aku", nama3="Gue")
 cetak_dict(umur=20, umur2=22, umur3=25)
+
+# Program Fungsi dengan Argumen Tak Terbatas

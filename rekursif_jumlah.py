@@ -5,3 +5,5 @@ def jumlah(n):
         return n + jumlah(n-1)
 
 print(jumlah(5))      # output: 15
+
+# Program Rekursif Jumlah Sederhana

@@ -4,3 +4,5 @@ print(nama[7])
 print(nama[2:5])
 print(nama[-3:])
 print(nama[:])
+
+# Program Indexing dan Slicing String Sederhana

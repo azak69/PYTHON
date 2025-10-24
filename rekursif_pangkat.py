@@ -5,3 +5,5 @@ def pangkat(a, n):
         return a * pangkat(a, n-1)
 
 print(pangkat(2, 4))  # output: 16
+
+# Program Rekursif Pangkat Sederhanas
