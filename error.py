@@ -5,23 +5,23 @@
 # IndexError
 # KeyError
 # ZeroDivisionError
-# print("=== KALKULATOR SEDERHANA ===")
+print("=== KALKULATOR SEDERHANA ===")
 
-# try:
-#     a = int(input("Angka Pertama : "))
-#     b = int(input("Angka Kedua : "))
-#     hasil = a / b
-#     print(f"Hasil : {hasil}")
-# except ValueError:
-#     print("Tolong masukkan angka!")
-# except TypeError:
-#     print("Tolong masukkan angka!")
-# except ZeroDivisionError:
-#     print("Tidak bisa dibagi nol!")
-# except:
-#     print("Terjadi Kesalahan!")
-#
-# print("=== PROGRAM SELESAI! ===")
+try:
+    a = int(input("Angka Pertama : "))
+    b = int(input("Angka Kedua : "))
+    hasil = a / b
+    print(f"Hasil : {hasil}")
+except ValueError:
+    print("Tolong masukkan angka!")
+except TypeError:
+    print("Tolong masukkan angka!")
+except ZeroDivisionError:
+    print("Tidak bisa dibagi nol!")
+except:
+    print("Terjadi Kesalahan!")
+
+print("=== PROGRAM SELESAI! ===")
 
 try:
     a = int(input("Masukkan angka : "))
@@ -37,3 +37,5 @@ else:
         print("Angka nol")
 finally:
     print("Program Selesai!")
+
+# Program Penanganan Error Sederhana
