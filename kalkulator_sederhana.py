@@ -1,5 +1,5 @@
 def penjumlahan():
-    print("Penjumlahan : ")
+    print("=== Program Penjumlahan ===")
     try:
         angka1 = int(input("Angka 1: "))
         angka2 = int(input("Angka 2: "))
@@ -13,7 +13,7 @@ def penjumlahan():
     print("====================================\n")
 
 def pengurangan():
-    print("Pengurangan : ")
+    print("=== Program Pengurangan ===")
     try:
         angka1 = int(input("Angka 1: "))
         angka2 = int(input("Angka 2: "))
@@ -27,7 +27,7 @@ def pengurangan():
     print("====================================\n")
 
 def perkalian():
-    print("Perkalian : ")
+    print("=== Program Perkalian ===")
     try:
         angka1 = int(input("Angka 1: "))
         angka2 = int(input("Angka 2: "))
@@ -41,7 +41,7 @@ def perkalian():
     print("====================================\n")
 
 def pembagian():
-    print("Pembagian : ")
+    print("=== Program Pembagian ===")
     try:
         angka1 = int(input("Angka 1: "))
         angka2 = int(input("Angka 2: "))
@@ -83,6 +83,7 @@ def menu():
                 break
             else:
                 print("Pilihan tidak valid! Tolong pilih 1-5.\n")
+                
         except ValueError:
             print("Pilihan tidak valid! Tolong masukkan angka.\n")
 
