@@ -46,6 +46,7 @@ def hapus_tugas():
 
 def main():
     while True:
+
         tampilkan_menu()
         pilihan = input("Pilih opsi (1-4)! : ")
         print("===========================\n")
@@ -61,7 +62,8 @@ def main():
             break
         else:
             print("Pilihan tidak valid! Silahkan pilih antara 1-4.")
-            print("===========================\n")
+            
+        print("===========================\n")
 
 if __name__ == "__main__":
     main()
