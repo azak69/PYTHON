@@ -1,7 +1,7 @@
 tasks = []
 
 def tampilkan_menu():
-    print("=== Aplikasi To-Do List ===")
+    print("=== Aplikasi To-Do List Tugas ===")
     print("1. Tambah Tugas")
     print("2. Lihat Semua Tugas")
     print("3. Hapus Tugas")
