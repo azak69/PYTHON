@@ -26,8 +26,7 @@ def buat_soal(jumlah=10, nama_file="bank_soal.txt"):
     for soal in sampel_soal:
         try:
             data = soal.split("|", 1)
-
-            if len(jawaban) < 2:
+            if len(data) < 2:
                 raise ValueError("Setiap soal harus memiliki minimal 2 pilihan jawaban.")
             pertanyaan = data[0].strip()
             semua_jawaban = data[1].strip()
