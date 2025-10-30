@@ -4,22 +4,24 @@
 # a = Tambah
 # x = Buat baru
 
-# print("== Simpan Data Nilai ==")
-# file = open("contoh.txt", "w")
+print("== Simpan Data Nilai ==")
+file = open("contoh.txt", "w")
 
-# while True:
-#     nama = input("Masukkan Nama Siswa : ")
-#     if nama == "":
-#         break
+while True:
+    nama = input("Masukkan Nama Siswa : ")
+    if nama == "":
+        break
     
-#     nilai = input("Masukkan Nilai Siswa : ")
+    nilai = input("Masukkan Nilai Siswa : ")
     
-#     file.write(f"Nama : {nama}, Nilai : {nilai} \n")
-#     print(f"Data {nama} berhasil ditambahkan!")
-#     print("Tekan Enter tanpa input untuk selesai!")
+    file.write(f"Nama : {nama}, Nilai : {nilai} \n")
+    print(f"Data {nama} berhasil ditambahkan!")
+    print("Tekan Enter tanpa input untuk selesai!")
 
-# file.close()
-# print("== Program Selesai ==")  # Membuka file untuk 
+file.close()
+print("== Program Selesai ==")
+
+# Menginput dan Menyimpan Data ke File
 
 print("== Menampilkan Data Nilai ==")
 try:
@@ -32,3 +34,5 @@ except FileNotFoundError:
     print("File tidak ditemukan.")
 
 print("== Program Selesai ==")
+
+# Membaca dan Menampilkan Data dari File
