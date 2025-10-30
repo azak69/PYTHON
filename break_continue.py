@@ -1,6 +1,6 @@
 secret = 8
 
-while True
+while True:
     tebak = int(input("Tebak angka antara 1 sampai 10: "))
 
     if tebak == secret:
