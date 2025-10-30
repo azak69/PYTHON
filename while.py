@@ -14,3 +14,5 @@ while percobaan < max_percobaan:
 
 else:
     print("Akses ditolak. Terlalu banyak percobaan gagal.")
+
+# Program Validasi Password
